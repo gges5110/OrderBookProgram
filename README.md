@@ -1,5 +1,8 @@
 # OrderBookProgram
-Implementation:
+To compile the program, simply use the command "make". You can use the command "make clean" to remove Pricer.o and Pricer.exe. To execute Pricer.exe, one need to specify the target size and also download the input data from the RGM website. You can use this link: http://www.rgmadvisors.com/problems/orderbook/pricer.in.gz. The output filename is set inside the Pricer.cpp file. 
+
+
+#Implementation
     I used an ordered_map and an unordered_map to store the information of price and order
     respectively. The goal is to calculate the sell and buy price for different target sizes. Using
     an ordered_map and keep track of the current size of the book can make the calculation very
